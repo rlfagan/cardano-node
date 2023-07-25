@@ -3,6 +3,7 @@
   <p align="center">
     <a href="https://github.com/input-output-hk/cardano-node/releases"><img src="https://img.shields.io/github/release-pre/input-output-hk/cardano-node.svg?style=for-the-badge" /></a>
     <a href="https://buildkite.com/input-output-hk/cardano-node"><img src="https://img.shields.io/buildkite/a978cbb4def7018be3d0a004127da356f4db32f1c318c1a48a/master?label=BUILD&style=for-the-badge"/></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fcardano-node?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fcardano-node.svg?type=shield"/></a>
   </p>
 
   <table align="center">
@@ -466,3 +467,7 @@ Troubleshooting ``cardano-node`` issues
 For some troubleshooting help with building or running ``cardano-node``, the wiki has a
 `troubleshooting page <https://github.com/input-output-hk/cardano-node-wiki/wiki/Troubleshooting>`_
 that documents some common gotchas.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fcardano-node.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fcardano-node?ref=badge_large)
