@@ -1,0 +1,1415 @@
+repo_name: rlfagan/cardano-node
+report_id: b290a738d09898a8d7582fdfd46d5341
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:04:36+00:00'
+requested_by: angerman
+provider: github
+branch: master
+detected_tools_count: 104
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/rlfagan/cardano-node
+  detection_source: Repo Metadata
+- name: Haskell
+  description: An advanced purely-functional programming language
+  website_url: http://www.haskell.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1069/oCgm29k9.png
+  detection_source_url: https://github.com/rlfagan/cardano-node
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2023-01-10 22:18:46.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-03-20 04:37:28.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/rlfagan/cardano-node
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Kosyrev Serge
+  last_updated_on: 2021-05-18 18:31:55.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Jean-Baptiste Giraudeau
+  last_updated_on: 2021-09-14 20:15:50.000000000 Z
+- name: JSONiq
+  description: A query and processing language specifically designed for the popular
+    JSON data model
+  website_url: http://jsoniq.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/9823/no-img-open-source.png
+  detection_source_url: https://github.com/rlfagan/cardano-node
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/cardano-node
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/.github/workflows/check-cabal-files.yml
+  detection_source: ".github/workflows/check-cabal-files.yml"
+  last_updated_by: Andrea Bedini
+  last_updated_on: 2023-02-09 06:41:43.000000000 Z
+- name: Nix
+  description: A package manager for Linux and other Unix systems
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/rlfagan/cardano-node
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Kosyrev Serge
+  last_updated_on: 2021-05-18 18:31:55.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: Denis Shevchenko
+  last_updated_on: 2022-01-13 13:27:25.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rlfagan/cardano-node
+  detection_source: Repo Metadata
+- name: Transformers
+  description: State-of-the-art Natural Language Processing for Pytorch and TensorFlow
+    2.0
+  website_url: https://huggingface.co/transformers/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/12240/no-img.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: aeson
+  description: Fast JSON parsing and encoding in Haskell
+  website_url: https://hackage.haskell.org/package/aeson
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7354/oCgm29k9_normal.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: gnuplot
+  website_url: http://www.gnuplot.info/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4138/no-img-open-source.png
+  detection_source_url: https://github.com/rlfagan/cardano-node
+  detection_source: Repo Metadata
+- name: Glob
+  description: 'A library for globbing: matching patterns against file paths'
+  package_url: http://hackage.haskell.org/Glob
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2023-02-08 20:23:48.000000000 Z
+- name: QuickCheck
+  description: |-
+    QuickCheck is a library for random testing of program properties.
+    The programmer provides a specification of the program
+  package_url: http://hackage.haskell.org/QuickCheck
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: Win32
+  description: Haskell support for the Win32 API
+  package_url: http://hackage.haskell.org/Win32
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: aeson
+  description: |-
+    A JSON parsing and encoding library optimized for ease of use
+    and high performance.
+
+    To get started
+  package_url: http://hackage.haskell.org/aeson
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-node-capi/cardano-node-capi.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: aeson-pretty
+  description: |-
+    A JSON pretty-printing library compatible with aeson as well as
+    a command-line tool to improve readabilty of streams of JSON data.
+
+    The library provides the function "encodePr
+  package_url: http://hackage.haskell.org/aeson-pretty
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: async
+  description: Run IO operations asynchronously and wait for their results
+  package_url: http://hackage.haskell.org/async
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: attoparsec
+  description: A fast parser combinator library
+  package_url: http://hackage.haskell.org/attoparsec
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Armando Santos
+  last_updated_on: 2023-07-13 11:14:52.000000000 Z
+- name: attoparsec-iso8601
+  description: Parsing of ISO 8601 dates, originally from aeson
+  package_url: http://hackage.haskell.org/attoparsec-iso8601
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Armando Santos
+  last_updated_on: 2023-07-13 11:14:52.000000000 Z
+- name: base
+  package_url: http://hackage.haskell.org/base
+  version: '4.12'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/tx-generator/tx-generator.cabal
+  detection_source: cardano-node-capi/cardano-node-capi.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2023-01-10 22:30:43.000000000 Z
+- name: bimap
+  description: Bidirectional mapping between two key types
+  package_url: http://hackage.haskell.org/bimap
+  version: 0.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: Michael Peyton Jones
+  last_updated_on: 2023-03-21 15:14:53.000000000 Z
+- name: blaze-html
+  description: |-
+    A blazingly fast HTML combinator library for the Haskell
+    programming language
+  package_url: http://hackage.haskell.org/blaze-html
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: bytestring
+  description: An efficient compact
+  package_url: http://hackage.haskell.org/bytestring
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: cassava
+  description: |-
+    Cassava is a library for parsing and encoding RFC 4180
+    compliant comma-separated values
+  package_url: http://hackage.haskell.org/cassava
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: cborg
+  description: Binary serialisation in the CBOR format
+  package_url: http://hackage.haskell.org/cborg
+  version: 0.2.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/tx-generator/tx-generator.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: containers
+  description: Assorted concrete container types
+  package_url: http://hackage.haskell.org/containers
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: criterion
+  description: |-
+    This library provides a powerful but simple way to measure software
+    performance
+  package_url: http://hackage.haskell.org/criterion
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: cryptonite
+  description: |-
+    A repository of cryptographic primitives.
+
+    Symmetric ciphers: AES
+  package_url: http://hackage.haskell.org/cryptonite
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2023-01-10 22:18:46.000000000 Z
+- name: deepseq
+  description: Deep evaluation of data structures
+  package_url: http://hackage.haskell.org/deepseq
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: directory
+  description: |-
+    This library provides a basic set of operations for manipulating files and
+    directories in a portable way
+  package_url: http://hackage.haskell.org/directory
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: ede
+  description: |-
+    ED-E is a templating language written in Haskell with a specific set of features:
+
+    Logicless within reason
+  package_url: http://hackage.haskell.org/ede
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Kosyrev Serge
+  last_updated_on: 2021-05-18 18:31:55.000000000 Z
+- name: ekg
+  description: |-
+    This library lets you remotely monitor a running process over HTTP.
+    It provides a simple way to integrate a monitoring server into any
+    application
+  package_url: http://hackage.haskell.org/ekg
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: Denis Shevchenko
+  last_updated_on: 2022-01-13 13:27:25.000000000 Z
+- name: ekg-core
+  description: This library lets you defined and track system metrics
+  package_url: http://hackage.haskell.org/ekg-core
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: Armando Santos
+  last_updated_on: 2023-07-21 16:24:51.000000000 Z
+- name: extra
+  description: A library of extra functions for the standard Haskell libraries
+  package_url: http://hackage.haskell.org/extra
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Armando Santos
+  last_updated_on: 2023-07-13 11:14:52.000000000 Z
+- name: file-embed
+  description: |-
+    Use Template Haskell to read a file or all the files in a
+    directory
+  package_url: http://hackage.haskell.org/file-embed
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Kosyrev Serge
+  last_updated_on: 2023-04-05 17:51:33.000000000 Z
+- name: filepath
+  description: This package provides functionality for manipulating FilePath values,
+    and is shipped with GHC
+  package_url: http://hackage.haskell.org/filepath
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Kosyrev Serge
+  last_updated_on: 2023-04-05 17:51:33.000000000 Z
+- name: fingertree
+  package_url: http://hackage.haskell.org/fingertree
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: generic-data
+  description: |-
+    Generic implementations of standard type classes.
+    Operations on generic representations to help using GHC.Generics.
+    See README
+  package_url: http://hackage.haskell.org/generic-data
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: ghc
+  package_url: http://hackage.haskell.org/ghc
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Kosyrev Serge
+  last_updated_on: 2021-05-18 18:31:55.000000000 Z
+- name: gnuplot
+  package_url: http://hackage.haskell.org/gnuplot
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: hedgehog
+  description: |-
+    Hedgehog automatically generates a comprehensive array
+    of test cases
+  package_url: http://hackage.haskell.org/hedgehog
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Armando Santos
+  last_updated_on: 2023-07-13 11:14:52.000000000 Z
+- name: mime-mail
+  description: Hackage documentation generation is not reliable
+  package_url: http://hackage.haskell.org/mime-mail
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: network
+  description: |-
+    This package provides a low-level networking interface.
+
+    Other packages provide higher level interfaces:
+
+    connection
+
+    hookup
+
+    network-simple
+
+    network seeks to provide a cross-pl...
+  package_url: http://hackage.haskell.org/network
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-node-chairman/cardano-node-chairman.cabal
+  detection_source: cardano-node-chairman/cardano-node-chairman.cabal
+  last_updated_by: Alexey Kuleshevich
+  last_updated_on: 2023-04-26 21:13:31.000000000 Z
+- name: optparse-applicative
+  description: |-
+    Optparse-applicative is a haskell library for parsing options
+    on the command line
+  package_url: http://hackage.haskell.org/optparse-applicative
+  version: 0.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/trace-analyzer/trace-analyzer.cabal
+  detection_source: bench/trace-analyzer/trace-analyzer.cabal
+  last_updated_by: Armando Santos
+  last_updated_on: 2023-07-13 11:14:52.000000000 Z
+- name: optparse-generic
+  package_url: http://hackage.haskell.org/optparse-generic
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Armando Santos
+  last_updated_on: 2023-07-13 11:14:52.000000000 Z
+- name: process
+  description: Library for dealing with system processes
+  package_url: http://hackage.haskell.org/process
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: random
+  description: This package provides basic pseudo-random number generation
+  package_url: http://hackage.haskell.org/random
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-node-chairman/cardano-node-chairman.cabal
+  detection_source: cardano-node-chairman/cardano-node-chairman.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2020-08-17 01:19:34.000000000 Z
+- name: resourcet
+  description: Hackage documentation generation is not reliable
+  package_url: http://hackage.haskell.org/resourcet
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-node-chairman/cardano-node-chairman.cabal
+  detection_source: cardano-node-chairman/cardano-node-chairman.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2020-10-02 00:22:24.000000000 Z
+- name: scientific
+  description: Arbitrary-precision floating-point numbers represented using scientific
+    notation
+  package_url: http://hackage.haskell.org/scientific
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: serialise
+  description: Binary serialisation in the CBOR format
+  package_url: http://hackage.haskell.org/serialise
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/trace-forward/trace-forward.cabal
+  detection_source: trace-forward/trace-forward.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: signal
+  description: Multiplatform signal support for Haskell
+  package_url: http://hackage.haskell.org/signal
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: smtp-mail
+  description: This packages provides a simple interface for mail over SMTP
+  package_url: http://hackage.haskell.org/smtp-mail
+  version: 0.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: snap-core
+  description: |-
+    Snap is a simple and fast web development framework and server written in
+    Haskell
+  package_url: http://hackage.haskell.org/snap-core
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: snap-server
+  description: |-
+    Snap is a simple and fast web development framework and server written in
+    Haskell
+  package_url: http://hackage.haskell.org/snap-server
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2023-01-10 22:18:46.000000000 Z
+- name: split
+  description: |-
+    A collection of various methods for splitting
+    lists into parts, akin to the "split" function
+    found in several mainstream languages
+  package_url: http://hackage.haskell.org/split
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: statistics
+  description: |-
+    This library provides a number of common functions and types useful
+    in statistics
+  package_url: http://hackage.haskell.org/statistics
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: stm
+  description: |-
+    Software Transactional Memory, or STM, is an abstraction for
+    concurrent communication
+  package_url: http://hackage.haskell.org/stm
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: Denis Shevchenko
+  last_updated_on: 2022-01-13 13:27:25.000000000 Z
+- name: string-qq
+  description: QuasiQuoter for non-interpolated, overloaded strings
+  package_url: http://hackage.haskell.org/string-qq
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2023-01-10 22:18:46.000000000 Z
+- name: system-filepath
+  description: 'Please see: https://plus.google.com/+MichaelSnoyman/posts/Ft5hnPqpgEx'
+  package_url: http://hackage.haskell.org/system-filepath
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Kosyrev Serge
+  last_updated_on: 2023-04-05 17:51:33.000000000 Z
+- name: tasty
+  description: |-
+    Tasty is a modern testing framework for Haskell.
+    It lets you combine your unit tests
+  package_url: http://hackage.haskell.org/tasty
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-node-chairman/cardano-node-chairman.cabal
+  detection_source: cardano-node-chairman/cardano-node-chairman.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2020-09-28 05:20:31.000000000 Z
+- name: tasty-hedgehog
+  description: Tasty integration for the Hedgehog property testing library
+  package_url: http://hackage.haskell.org/tasty-hedgehog
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-node-chairman/cardano-node-chairman.cabal
+  detection_source: cardano-node-chairman/cardano-node-chairman.cabal
+  last_updated_by: Armando Santos
+  last_updated_on: 2023-07-13 11:14:52.000000000 Z
+- name: tasty-quickcheck
+  description: Modern and extensible testing framework for Haskell
+  package_url: http://hackage.haskell.org/tasty-quickcheck
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: template-haskell
+  package_url: http://hackage.haskell.org/template-haskell
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: text
+  description: An efficient packed, immutable Unicode text type
+  package_url: http://hackage.haskell.org/text
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: threepenny-gui
+  description: |-
+    Threepenny-GUI is a GUI framework that uses the web browser as a display.
+
+    It's very easy to install because everyone has a web browser installed.
+
+    A program written with Three
+  package_url: http://hackage.haskell.org/threepenny-gui
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: Michael Peyton Jones
+  last_updated_on: 2023-03-21 15:14:53.000000000 Z
+- name: time
+  description: A time library
+  package_url: http://hackage.haskell.org/time
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: transformers
+  package_url: http://hackage.haskell.org/transformers
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: unix
+  description: POSIX functionality
+  package_url: http://hackage.haskell.org/unix
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: unix-compat
+  description: Haskell portable POSIX-compatibility layer
+  package_url: http://hackage.haskell.org/unix-compat
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: unliftio
+  description: Please see the documentation and README at https://www.stackage.org/package/unliftio
+  package_url: http://hackage.haskell.org/unliftio
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-node-chairman/cardano-node-chairman.cabal
+  detection_source: cardano-node-chairman/cardano-node-chairman.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2020-08-17 01:19:34.000000000 Z
+- name: unordered-containers
+  description: Efficient hashing-based container types
+  package_url: http://hackage.haskell.org/unordered-containers
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: utf8-string
+  description: A UTF8 layer for Strings
+  package_url: http://hackage.haskell.org/utf8-string
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: vector
+  description: An efficient implementation of Int-indexed arrays
+  package_url: http://hackage.haskell.org/vector
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: witherable
+  description: Filter with effects
+  package_url: http://hackage.haskell.org/witherable
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/bench/locli/locli.cabal
+  detection_source: bench/locli/locli.cabal
+  last_updated_by: Kosyrev Serge
+  last_updated_on: 2023-03-23 12:43:25.000000000 Z
+- name: yaml
+  description: README and API documentation are available at https://www.stackage.org/package/yaml
+  package_url: http://hackage.haskell.org/yaml
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/cardano-tracer/cardano-tracer.cabal
+  detection_source: cardano-tracer/cardano-tracer.cabal
+  last_updated_by: John Ky
+  last_updated_on: 2022-12-30 03:33:12.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2022.12.7
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-08 10:48:41.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  version: 2.7.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Erik de Castro Lopo
+  last_updated_on: 2021-03-29 22:25:58.000000000 Z
+  vulnerabilities:
+  - name: Pygments vulnerable to ReDoS
+    cve_id: CVE-2022-40896
+    cve_url: https://github.com/advisories/GHSA-mrwq-x4v8-fh7p
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 2.15.0
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '2.9'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+  vulnerabilities:
+  - name: Internationalized Domain Names in Applications (IDNA) vulnerable to denial
+      of service from specially crafted inputs to idna.encode
+    cve_id: CVE-2024-3651
+    cve_url: https://github.com/advisories/GHSA-jjg7-2v4v-x38h
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: '3.7'
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.24.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-06-02 02:31:53.000000000 Z
+  vulnerabilities:
+  - name: 'urllib3''s Proxy-Authorization request header isn''t stripped during cross-origin
+      redirects '
+    cve_id: CVE-2024-37891
+    cve_url: https://github.com/advisories/GHSA-34jh-p97f-mpxf
+    detected_date: Jun 18
+    severity: moderate
+    first_patched: 1.26.19
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: Babel
+  description: Internationalization utilities
+  package_url: https://pypi.org/project/Babel
+  version: 2.9.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19888/default_680f9274a97353753534797409b2c06b6bd32266.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-10-21 18:43:00.000000000 Z
+- name: CommonMark
+  description: Python parser for the CommonMark Markdown spec
+  package_url: https://pypi.org/project/CommonMark
+  version: 0.9.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20371/default_e6c4d6b6295b7d6934a5e16b2a16a7aa07991d65.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: Sphinx
+  description: Python documentation generator
+  package_url: https://pypi.org/project/Sphinx
+  version: 3.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19866/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: alabaster
+  description: A configurable sidebar-enabled Sphinx theme
+  package_url: https://pypi.org/project/alabaster
+  version: 0.7.12
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20437/default_ddb692c01567b84e62be2bdf1939b66f9ea202da.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: chardet
+  description: Universal encoding detector for Python 2 and 3
+  package_url: https://pypi.org/project/chardet
+  version: 3.0.4
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 7.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: docutils
+  description: Docutils -- Python Documentation Utilities
+  package_url: https://pypi.org/project/docutils
+  version: '0.16'
+  license: Unlicense,Python-2.0,BSD-2-Clause,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19874/default_7ed3c4ccf2a3218ae3655165b980bd4a90a445dc.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: future
+  description: Clean single-source support for Python 3 and 2
+  package_url: https://pypi.org/project/future
+  version: 0.18.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19839/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-17 09:16:07.000000000 Z
+- name: imagesize
+  description: Getting image size from png/jpeg/jpeg2000/gif file
+  package_url: https://pypi.org/project/imagesize
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20689/default_97223b18c6535dbac1402096635eb61b030b163e.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: jsonpointer
+  description: Identify specific nodes in a JSON document
+  package_url: https://pypi.org/project/jsonpointer
+  version: '2.0'
+  license: Zed
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: jsonref
+  description: An implementation of JSON Reference for Python
+  package_url: https://pypi.org/project/jsonref
+  version: '0.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20440/default_78aad9a94d92008f2956553201795662c93dc175.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2020.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: recommonmark
+  description: A docutils-compatibility bridge to CommonMark
+  package_url: https://pypi.org/project/recommonmark
+  version: '0.6'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20785/default_3dc6e3c6dcf3f86c14c11b522f418f25779a676a.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: snowballstemmer
+  description: This package provides 26 stemmers for 25 languages generated from Snowball
+    algorithms
+  package_url: https://pypi.org/project/snowballstemmer
+  version: 2.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20715/default_a485409591fb9b86ee476bab39cb99f343db32a5.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
+- name: sphinxcontrib-websupport
+  description: Sphinx API for Web Apps
+  package_url: https://pypi.org/project/sphinxcontrib-websupport
+  version: 1.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/rlfagan/cardano-node/blob/master/doc/.sphinx/requirements.txt
+  detection_source: doc/.sphinx/requirements.txt
+  last_updated_by: Rob Cohen
+  last_updated_on: 2020-07-17 17:28:37.000000000 Z
